@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Risuna's Cake Bakery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: hsl(335, 83%, 77%);
+        }
+        header {
+            background-color: hsl(hsl(332, 61%, 28%));
+            color: rgb(10, 10, 10);
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: (#F5F5F5);
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px;
+            background-image: url('bakery.jpg');
+            background-size: cover;
+            color: white;
+        }
+        .hero h1 {
+            font-size: 3em;
+        }
+        .menu {
+            padding: 20px;
+            text-align: center;
+        }
+        .menu h2 {
+            color: #d2691e;
+        }
+        .menu-items {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .menu-item {
+            background-color: (lch(54.08% 84.3 354.1));
+            border: 1px solid hsl(330, 90%, 54%);
+            border-radius: 5px;
+            padding: 15px;
+            width: 200px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .menu-item img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: (#FFC5C5);
+            color: (#754975);
+            font-size: 0.9em;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Risuna's Bakery</h1>
+    </header>
+    <nav>
+        <a href="http://127.0.0.1:5500/bakery-website/home-page.html">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section class="hero" id="home">
+        <h1>Freshly Baked Goodies Every Day!</h1>
+        <p>Come and taste the difference.</p>
+    </section>
+    <section class="menu" id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="OSK.jpeg" alt="Crossant">
+                <h3>Crossant</h3>
+                <p>R5.50</p>
+            </div>
+            <div class="menu-item">
+                <img src="th.jpeg" alt="Muffin">
+                <h3>Muffins</h3>
+                <p>R33.00</p>
+            </div>
+            <div class="menu-item">
+                <img src="OIP.jpeg" alt="Cake">
+                <h3>Fresh Bread</h3>
+                <p>R400.00</p>
+            </div>
+            <div class="menu-item">
+                <img src="OIP (1).jpeg" alt="Cupcake">
+                <h3>Cupcakes</h3>
+                <p>R20.00</p>
+        </div>
+            <div class="menu-item">
+                <img src="OIP (2).jpeg" alt="Birthday Cakes">
+                <h3>Birthday Cakes</h3>
+                <p>R850.00</p>
+            </div>
+            <div class="menu-item">
+                <img src="OIP (3).jpeg" alt="Scones">
+                <h3>Scones</h3>
+                <p>R15.00</p>
+            </div>
+            <div class="menu-item">
+                <img src="BANANA.jpeg" alt="Banana Bread">
+                <h3>Banana Bread</h3>
+                <p>R25.50</p>
+            </div>
+    </section>
+    <section class="menu" id="menu">
+        <h2>Special Offers</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="12.jpeg" alt="Special Offer 1">
+                <h3>Buy 1 Get 1 Free on Muffins!</h3>
+                <p>Limited time offer.</p>
+            </div>
+            <div class="menu-item">
+                <img src="R.jpeg" alt="Special Offer 2">
+                <h3>20% off on Birthday Cakes</h3>
+                <p>Order now!</p>
+            </div>
+            <div class="menu-item">
+                <img src="download (1).jpeg" alt="Special Offer 3">
+                <h3>Free Scone with every Coffee</h3>
+                <p>Enjoy a treat with your drink.</p>
+            </section>
+    <footer id="contact">
+        <p>Contact us at: info@thebakery.com | Call: (123) 456-7890</p>
+        <p>&copy; 2024 The Risuna's Cake Baker. All rights reserved.</p>
+    </footer>
+</body>
+</html>
